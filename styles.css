@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 80vh;
+    background-color: hsl(212, 45%, 89%);
+    max-width: 1440px;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+    
+}
+
+.qr-code-card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.qr-image {
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+}
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
+.text  {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
